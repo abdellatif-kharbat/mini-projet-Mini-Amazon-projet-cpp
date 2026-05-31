@@ -75,11 +75,9 @@ g++ main.cpp -o app
 ---
 
 ## 📸 Example Usage
- ## 📸 Example Usage
-
 Here is a preview of the application running in the console:
 
-![Application Screenshot](image de l'interface de l'application.png)
+![Application Screenshot](screenshot.png.png)
 
 ```
 1. Show Products
