@@ -8,21 +8,25 @@ using namespace std;
 
 class Client {
 private:
-    int id;
-    string nom;
-    string email;
-    vector<Commande> historique;
+    int id;                      // Identifiant du client
+    string nom;                  // Nom du client
+    string email;                // Email du client
+    vector<Commande> historique; // Liste des commandes du client
 
 public:
-    Client();
-    Client(int id, string nom, string email);
+    // Constructeurs
+    Client();                                    // Constructeur par défaut
+    Client(int id, string nom, string email);    // Constructeur avec paramètres
 
-    int getId() const;
-    string getNom() const;
+    // Getters
+    int getId() const;          // Retourne l'ID du client
+    string getNom() const;      // Retourne le nom du client
 
-    void ajouterCommande(Commande commande);
-    void afficherHistorique() const;
+    // Méthodes
+    void ajouterCommande(Commande commande);  // Ajoute une commande à l'historique
+    void afficherHistorique() const;          // Affiche toutes les commandes du client
 
+    // Surcharge de l'opérateur << pour l'affichage
     friend ostream& operator<<(ostream& out, const Client& c);
 };
 
