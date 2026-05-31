@@ -77,7 +77,7 @@ g++ main.cpp -o app
 ## 📸 Example Usage
 Here is a preview of the application running in the console:
 
-![Application Screenshot](screenshot.png.png)
+![Application Screenshot](screenshot.png)
 
 ```
 1. Show Products
